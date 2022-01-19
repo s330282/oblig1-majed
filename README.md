@@ -1,14 +1,14 @@
-# Oblig X
+# Oblig 1
 
-OsloMet brukernavn: sXXXXXX
+OsloMet brukernavn: s338202
 
-GitHub brukernavn: 
+GitHub : s330282
 
-GitHub repo URL: 
+GitHub repo URL: https://github.com/DATA1700/oblig1-majed
 
 URL til Heroku app: 
 
-Fullt navn: 
+Fullt navn: Abdeimajid Ab Khalif
 
 Kort beskrivelse av applikasjon (5–10 setninger): 
 
