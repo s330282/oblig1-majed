@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oblig1</title>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+<table>
+    <thead>Bestilling av kinoBilleter</thead>
+    <tbody>
+    <tr>
+        <td><label for="select"> Velg film: </label></td>
+        <td><select id="select">
+            <option> Velg film her</option>
+            <option value="Pirates"> Pirates</option>
+            <option value="SpiderGirl"> SpiderGirl</option>
+            <option value="Brothers"> Brothers</option>
+            <option value="GoodDay"> GoodDay</option>
+            <option value="JackiChan"> JackiChan</option>
+
+
+        </select></td>
+        <td>
+            <div id="feilmeldingFilm" style="color: red"></div>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="antall">Antall</label></td>
+        <td><input id="antall" type="number"></td>
+        <td>
+            <div id="feilmelding" style="color: red"></div>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="fornavn">Fornavn</label></td>
+        <td><input id="fornavn" type="text"></td>
+        <td>
+            <div id="feilfornavn" style="color: red"></div>
+        </td>
+
+
+    </tr>
+    <tr>
+        <td><label for="etternavn">Etternavn</label></td>
+        <td><input id="etternavn" type="text"></td>
+        <td>
+            <div id="feiletternavn" style="color: red"></div>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="telefon">Telefonnr</label></td>
+        <td><input id="telefon" type="number"></td>
+        <td>
+            <div id="feiltelefon" style="color: red"></div>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="epost">Epost</label></td>
+        <td><input id="epost" type="text"></td>
+        <td>
+            <div id="feilepost" style="color: red"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="lagreBillet()"> Kjøp billet</button>
+        </td>
+    </tr>
+
+
+    </tbody>
+
+</table>
+<h3>Alle Billeter</h3>
+<div id="billetListe"></div>
+<button onclick="slett()">Slett alle billetene</button>
+
+
+</body>
+</html>
