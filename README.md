@@ -6,7 +6,7 @@ GitHub : s330282
 
 GitHub repo URL: https://github.com/DATA1700/oblig1-majed
 
-URL til Heroku app: 
+URL til Heroku app:  
 
 Fullt navn: Abdeimajid Ab Khalif
 
